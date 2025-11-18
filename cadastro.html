@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro - MindWell</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Container para Alertas Animados -->
+    <div id="toast-container"></div>
+
+    <div class="auth-card">
+      <!-- Logo Rotacionada -->
+      <div class="logo">M</div>
+
+      <h1 style="margin-bottom: 0.5rem">Criar Conta</h1>
+      <p style="color: #71717a; margin-bottom: 2rem">Comece sua jornada de equilíbrio hoje.</p>
+
+      <form id="register-form">
+        <input type="text" id="reg-name" placeholder="Seu nome completo" required />
+        <input type="email" id="reg-email" placeholder="seu@email.com" required />
+        <input type="password" id="reg-password" placeholder="Crie uma senha" required />
+
+        <button type="submit" class="btn">Cadastrar-se</button>
+      </form>
+
+      <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #71717a">Já faz parte do MindWell? <a href="login.html">Fazer Login</a></p>
+    </div>
+
+    <script src="cadastro.js"></script>
+  </body>
+</html>
